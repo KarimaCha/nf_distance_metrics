@@ -1,6 +1,8 @@
 from collections import Counter
 import math
 
+print('Hi Ho')
+
 def knn(data, query, k, distance_fn, choice_fn):
     neighbor_distances_and_indices = []
     
